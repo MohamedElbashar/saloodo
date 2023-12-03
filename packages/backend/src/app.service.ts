@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { connectToDatabase } from '@@saloodo/saloodo-database';
+import { connectToDatabase } from '@saloodo/saloodo-database';
 @Injectable()
 export class AppService {
   constructor() {
