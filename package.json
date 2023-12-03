@@ -28,14 +28,14 @@
     "packageManager": "npm@8.5.5",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/MohamedElbashar/easy-generator-task"
+        "url": "git+https://github.com/MohamedElbashar/saloodo"
     },
     "author": "saloodo",
     "license": "UNLICENSED",
     "bugs": {
-        "url": "https://github.com/MohamedElbashar/easy-generator-task/issues"
+        "url": "https://github.com/MohamedElbashar/saloodo/issues"
     },
-    "homepage": "https://github.com/MohamedElbashar/easy-generator-task#readme",
+    "homepage": "https://github.com/MohamedElbashar/saloodo#readme",
     "dependencies": {
         "bson": "^4.5.4",
         "dayjs": "^1.11.10",

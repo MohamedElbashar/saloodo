@@ -1,1 +1,0 @@
-# easy-generator-task
