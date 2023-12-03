@@ -1,0 +1,48 @@
+{
+    "name": "saloodo",
+    "version": "0.0.1",
+    "private": true,
+    "description": "",
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "format": "prettier --write .",
+        "postinstall": "patch-package",
+        "build:libs": "npm run build -w packages/libs",
+        "start:server":"npm run start -w packages/backend",
+        "start:ui":"npm run start -w packages/frontend",
+        "build:ui":"npm run build -w packages/frontend"
+    },
+    "devDependencies": {
+        "@types/react-csv": "^1.1.3",
+        "concurrently": "^8.2.2",
+        "patch-package": "^6.4.7",
+        "prettier": "2.7.1",
+        "prettier-plugin-tailwindcss": "^0.1.13"
+    },
+    "engines": {
+        "npm": ">=8.0.0",
+        "node": ">=16.0.0"
+    },
+    "packageManager": "npm@8.5.5",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MohamedElbashar/easy-generator-task"
+    },
+    "author": "saloodo",
+    "license": "UNLICENSED",
+    "bugs": {
+        "url": "https://github.com/MohamedElbashar/easy-generator-task/issues"
+    },
+    "homepage": "https://github.com/MohamedElbashar/easy-generator-task#readme",
+    "dependencies": {
+        "bson": "^4.5.4",
+        "dayjs": "^1.11.10",
+        "i": "^0.3.7",
+        "mongoose": "^7.0.3",
+        "nodemailer": "^6.8.0",
+        "npm": "^8.19.2",
+        "uninstall": "^0.0.0"
+    }
+}
